@@ -1,0 +1,11 @@
+name = "agent-visibility-templatewww"
+main = "src/index.js"
+compatibility_date = "2024-02-22"
+
+[env.staging]
+name = "agent-visibility-templatewww-staging"
+vars = { ENVIRONMENT = "staging" }
+
+[env.production]
+name = "agent-visibility-templatewww-production"
+vars = { ENVIRONMENT = "production" }
