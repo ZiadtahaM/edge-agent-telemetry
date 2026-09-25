@@ -1,11 +1,11 @@
-name = "agent-visibility-templatewww"
+name = "edge-agent-telemetry"
 main = "src/index.js"
 compatibility_date = "2024-02-22"
 
 [env.staging]
-name = "agent-visibility-templatewww-staging"
+name = "edge-agent-telemetry-staging"
 vars = { ENVIRONMENT = "staging" }
 
 [env.production]
-name = "agent-visibility-templatewww-production"
+name = "edge-agent-telemetry-production"
 vars = { ENVIRONMENT = "production" }
